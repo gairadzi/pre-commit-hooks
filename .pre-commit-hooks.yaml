@@ -1,0 +1,6 @@
+- id: validate-webservers-schema
+  name: validate webservers schema
+  description: validates webservers.yaml file schema is correct
+  entry: validate-webservers-schema
+  language: python
+  files: k8s/webservers.yaml
